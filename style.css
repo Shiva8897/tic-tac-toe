@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 0 200;
+   position: relative;
+   left: 480px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+p#status {
+    font-size: 1.2em;
+    font-weight: bold;
+}
